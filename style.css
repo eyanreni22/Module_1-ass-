@@ -38,7 +38,7 @@
    
  }
 .text-center{
-  margin-top: 20px;
+  margin-top: 10px;
 }
  .carousel-caption h1{
    font-size: 12px;
@@ -53,7 +53,7 @@
 .input[type=text], select, textarea{
   width: 70%;
   padding: 12px;
-  border: 1px solid #921414;
+  border: 1px solid #1b0909;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
@@ -98,6 +98,9 @@ input[type=submit] {
   width: 75%;
   margin-top: 6px;
 }
+ .card-container {
+  text-align: center;
+ }
 
 /* Clear floats after the columns */
 .row:after {
@@ -110,4 +113,5 @@ input[type=submit] {
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
-    margin-top:
+  }
+}
